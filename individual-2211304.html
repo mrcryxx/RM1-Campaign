@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RM1 Campaign Program Cover</title>
+    <link rel="stylesheet" href="individual-2211304.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <!-------------- CoverPage -------------->
+
+    <section class="header">
+      <nav>
+        <a href="individual-2211304.html"><img src="iiumlogowithwords.png" /></a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#home">HOME</class=></li>
+            <li><a href="#form">FORM</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="text-box" id="home">
+        <img src="donation.png" alt  ="Donate"
+        height="150"
+        width="250">
+        <h1>RM1 CAMPAIGN</h1>
+        <h3>Let your contributions be <br><strong>PERPETUAL</strong><br> for the pleasure of Allah swt</h3>
+        <p>
+          "The example of those who spend their wealth in the way of Allah is<br>
+          like a seed [of grain] which grows seven spikes; in each spike is a <br>
+          hundred grains. And Allah multiplies [His reward] for whom He wills. <br>
+          And Allah is all-Encompassing and Knowing."<br />
+          Al Baqarah : 261
+        </p>
+      </div>
+    </section>
+
+    <!-------------- Form -------------->
+
+    <section class="address">
+      <h3 id="form">RM1 Campaign Form</h3><br>
+      <p>
+        Director<br />
+        IIUM Endowment Fund<br />
+        Level 3, Rectory Building<br />
+        International Islamic University Malaysia
+      </p>
+    </section>
+
+    <section class="title">
+      <h3>PARTICIPATION IN RM1 CAMPAIGN - MONTHLY SALARY DEDUCTION
+      </h3>
+    </section>
+
+    <form action="">
+      <section class="customer-detail">
+        <label for="c_name">Name &emsp;&emsp;&emsp;&emsp;&emsp;</label>
+        <input type="text" name="c_name" id="c_name" />
+        <br />
+        <label for="s_number">Staff No.&emsp;&emsp;&emsp;&emsp;</label>
+        <input type="text" name="s_number" id="s_number" />
+        <br />
+        <label for="c_kcdio">K/C/D/I/O&emsp;&emsp;</label>
+        <input type="text" name="c_kcdio" id="c_kcdio" />
+        <br />
+        <label for="c_number">Contact No. &emsp;&emsp;</label>
+        <input type="text" name="c_number" id="c_number" />
+        <br />
+        <label for="c_email">Email &emsp;&emsp;&emsp;&emsp;&emsp;</label>
+        <input type="email" name="c_email" id="c_email" /><br>
+      </section>
+
+      <section class="money">
+        <div>
+          <label for="c_amount">Amount to be deducted : RM&emsp;</label>
+          <input type="number" name="c_amount" id="c_amount" /><br /><br><br>
+        </div>
+        <label for="start_month">The above salary deduction will take effect from</label>
+        <input type="number" name="start_month" id="start_month" />
+        <label for="start_month">(month)</label>
+        <label for="start_year"></label>
+        <input type="number" name="start_year" id="start_year" />
+        <label for="start_year">(year)</label>
+        <label for="end_month"><br>until</label>
+        <input type="number" name="end_month" id="end_month" />
+        <label for="end_month">(month)</label>
+        <input type="number" name="end_year" id="end_year" /> 
+        <label for="end_year">(year) or further notice.</label><br>
+      </section>
+
+      <section class="kuliyyah">
+        <label for="k_name">For Kuliyyah of&emsp;</label>
+        <input type="text" name="k_name" id="k_name" /><br><br><br>
+      </section>
+
+      <section class="signdate">
+        <div class="sign">
+          <input type="text" name="c_sign" id="c_sign" /><br>
+          <label for="c_sign">&emsp;&emsp; Signature</label><br>
+          (<input type="text" name="sign_name" id="sign_name" />)
+        </div>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <div class="date">  
+          <input type="text" name="c_date" id="c_date" /><br>
+          <label for="c_date">&emsp;&emsp;&emsp; Date</label><br><br>
+        </div>
+        </section>
+        
+        <div class="container">
+          <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+          <div class="popup" id="popup">
+            <img src="check.png" height="150" width="150">
+            <h2>Thank You!</h2>
+            <p>Your details has been successfully submitted. Thanks!</p>
+            <button type="button" onclick="closePopup()">OK</button>
+          </div>
+        </div>
+      </form>
+
+      <!-------------- Contact Us -------------->
+
+      <section class="contact">
+        <h1 id="contact">CONTACT US</h1>
+      </section>
+      <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d509928.687675124!2d101.6045875317678!3d3.1427320063335373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc395538d5c9e9%3A0x7da33f0805ab61ce!2sIIUM%20Endownment%20Fund%20Zakat%20Unit!5e0!3m2!1sen!2smy!4v1701420275264!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+      <section class="info">
+        <h4>Contact Us&emsp;<img src="phone-call.png" height="20" width="20"></h4><br>
+        <div class="row">
+          <div class="contact-col">
+            <h5>
+              IIUM ENDOWMENT FUND<br>
+              Level 3, Rectory<br>
+              International Islamic University Malaysia<br>
+              P.O. Box 10<br>
+              50728 Kuala Lumpur<br>                 
+            </h5>
+            <h5>
+              Tel : +03 6196 4268                
+            </h5>
+            <h5>
+              Email : ief@iium.edu.my               
+            </h5>
+            <h5>
+              Website : www.iium.edu.my/ief              
+            </h5>
+            <h5>
+              Facebook : www.facebook.com/ief.official/              
+            </h5>
+          </div>
+        </div>
+
+      </section>
+    <script src="individual-2211304.js"></script>
+  </body>
+</html>

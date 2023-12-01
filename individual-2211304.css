@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+/*-----------------Cover Page----------------*/
+
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(
+        rgba(58, 60, 66, 0.7),rgba(58, 60, 66, 0.7)),
+        url(moneysavingbackground.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 350px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li:hover{
+    border: 1px solid rgb(38, 107, 64);
+    background: rgb(38, 107, 64);
+    transition: 1s;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box h3{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #fff;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: #fff;
+}
+
+/*------------- Form -------------*/
+
+.address{
+    width: 80%;
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 300px;
+}
+.address h3{
+    font-size: 36px;
+    font-weight: 600;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    text-decoration-line: underline;
+    padding-left: 300px;
+}
+p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.title{
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 300px;
+}
+
+.customer-detail{
+    width: 60%;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.customer-detail input, .customer-detail textarea{
+    width:80%;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+    outline: none;
+}
+.money{
+    padding-left: 300px;
+}
+.money div{
+    width: 80%;
+    text-align: left;
+    padding-top: 20px;
+}
+.money div input, .money div textarea{
+    width: 56%;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+    outline: none;
+}
+.kuliyyah{
+    width: 60%;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.kuliyyah input, .kuliyyah textarea{
+    width:80%;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+    outline: none;
+}
+.signdate{
+    padding-left: 300px;
+    display: inline;
+    display: flex;
+}
+input[type=text]{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #455B23;
+    margin: 5px 0px;
+}
+input[type=number]{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #455B23;
+    margin: 5px 0px;
+}
+input[type=email]{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #455B23;
+    margin: 5px 0px;
+}
+.container{
+    width: 10%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 800px;
+}
+.btn{
+    padding: 10px 60px;
+    background: #000000;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 170%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup img{
+    width: 150px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 2);
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 2);
+}
+
+
+/*-------------Contact Us-------------*/
+
+.contact{
+    margin: 100px auto;
+    margin-bottom: -1%;
+    width: 90%;
+    background-image: linear-gradient(rgba(58, 60, 66, 0.7),rgba(58, 60, 66, 0.7)),url(bguia.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 90px 0;
+}
+.contact h1{
+    color: white;
+    padding: 0;
+}
+.location{
+    width: 78%;
+    margin: auto;
+    padding: 60px 0;
+}
+.location iframe{
+    width: 100%;
+}
+.info{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col div p{
+    padding: 0;
+}
+.contact-col div h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #555;
+}
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: rgb(38, 107, 64);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+
+}
