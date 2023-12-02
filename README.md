@@ -5,7 +5,7 @@
 -Describe the JavaScript interaction that you have created for the 1-page website.<br>
 I created the open popup and the close popup function in javascript. 
 The function was to open and close the popup when I clicked the submit button in the form page.
-The interaction is that I use javascript to create the function and calls the function in the main html file.
+The interaction is the clickable component. I use javascript to create the function and calls the function in the main html file.
 To be able to do so, the html will be referring to the javascript using the <script>. 
 
 -List out your references to create your 1-page website. 
